@@ -1,6 +1,4 @@
 import sympy as sy
-a=2
-b=2000000
-x=list(sy.primerange(a, b))
+x=list(sy.primerange(2, 2000000))
 print(sum(x))
     
