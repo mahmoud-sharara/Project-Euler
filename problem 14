@@ -1,0 +1,19 @@
+def number(n):
+    x=[]
+    while True:
+        x.append(n)
+        if n == 1:
+            return x
+        elif n % 2 == 0:
+            n = n // 2
+        else:
+            n = 3 * n + 1
+        len(x)
+new = 0
+old = 0
+for i in range (1000001,1,-1):
+    z=len(number(i))
+    if z > old :
+        new = i
+        old = z
+print(new)
